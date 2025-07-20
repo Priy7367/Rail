@@ -14,8 +14,6 @@ A dynamic, intelligent train scheduling system that leverages backtracking to op
 
         .Installation
 
-   . Usage
-
    . License
 
    . Contact
@@ -75,30 +73,6 @@ A step-by-step series of examples the have the development environment running:
 
    cd yourproject
    intelligent-train-scheduler
-
-## Usage
-
-You can run the project by executing:
-```bash
-python main.py
-
-This will:
-
-    Build the train network graph
-
-    Monitor real-time traffic
-
-    Use backtracking in case of congestion
-
-    Print final optimized route with logs
-  Example
-    T+0: Departed Source
-    T+60: Arrived Station_A
-    T+60: ⚠ High traffic detected at Station_B
-    T+60: 🔄 Backtracking activated
-    T+90: ✅ Resuming journey
-    T+150: Arrived Station_B
-    T+210: Arrived Destination
 
 ## Licence
 
